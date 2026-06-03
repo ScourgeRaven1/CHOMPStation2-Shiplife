@@ -153,11 +153,11 @@
 	initial_restricted_waypoints = list()
 
 /obj/effect/overmap/visitable/ship/stellar_delight
-	name = "NRV Stellar Delight"
+	name = "NRV Brood of Stars"
 	icon = 'icons/obj/overmap_vr.dmi'
 	icon_state = "stellar_delight_g"
 	desc = "Spacefaring vessel. Friendly IFF detected."
-	scanner_desc = @{"[i]Registration[/i]: NRV Stellar Delight
+	scanner_desc = @{"[i]Registration[/i]: NRV Brood of Stars
 [i]Class[/i]: Nanotrasen Response Vessel
 [i]Transponder[/i]: Transmitting (CIV), non-hostile"
 [b]Notice[/b]: A response vessel registered to Nanotrasen."}

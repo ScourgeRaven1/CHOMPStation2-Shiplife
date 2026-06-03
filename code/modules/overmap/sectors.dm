@@ -61,6 +61,11 @@
 
 	if(!using_map.overmap_z)
 		build_overmap()
+	// CHOMPEdit: maps that preset overmap_z (e.g. Stellar Delight) skip build_overmap() and therefore
+	// never spawn the dynamic POI generator. Create it here if missing so those maps still get overmap
+	// POIs. This runs during atom init (unlike SSmapping), so the generator actually initializes.
+	else if(isnull(GLOB.dynamic_sector_master) && !istype(src, /obj/effect/overmap/visitable/dynamic))
+		new /obj/effect/overmap/visitable/dynamic
 
 	start_x = start_x || rand(OVERMAP_EDGE, using_map.overmap_size - OVERMAP_EDGE)
 	start_y = start_y || rand(OVERMAP_EDGE, using_map.overmap_size - OVERMAP_EDGE)

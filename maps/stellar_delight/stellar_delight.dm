@@ -1,12 +1,13 @@
 #if !defined(USING_MAP_DATUM)
 
 	#include "stellar_delight_defines.dm"
+	#include "stellar_delight_compat_ch.dm"
 	#include "stellar_delight_jobs.dm"
 	#include "stellar_delight_shuttles.dm"
 	#include "stellar_delight_telecomms.dm"
 	#include "stellar_delight_things.dm"
 	#include "stellar_delight_turfs.dm"
-	#include "stellar_delight_events.dm"
+	//#include "stellar_delight_events.dm" // CHOMP: event rotation is handled globally by modular_chomp/code/modules/event/event_container_ch.dm; this upstream copy would duplicate-define.
 
 	#ifndef AWAY_MISSION_TEST //Don't include these for just testing away missions
 		#include "stellar_delight1.dmm"

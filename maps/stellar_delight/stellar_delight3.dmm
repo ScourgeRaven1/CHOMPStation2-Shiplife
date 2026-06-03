@@ -18,7 +18,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "ad" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/tcommsat/chamber)
 "ae" = (
 /obj/structure/railing/grey{
@@ -58,8 +58,7 @@
 /area/stellardelight/deck3/aft)
 "ai" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/stellardelight/deck3/portdock)
 "aj" = (
@@ -97,10 +96,9 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/substation/command)
 "am" = (
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/machinery/door/firedoor/glass,
 /obj/structure/cable/green{
@@ -143,7 +141,7 @@
 	dir = 8;
 	pixel_x = -32
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "at" = (
 /obj/structure/table/darkglass,
@@ -219,12 +217,11 @@
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/hop)
 "aA" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/transitgateway)
 "aB" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "aC" = (
@@ -287,8 +284,7 @@
 /area/stellardelight/deck2/fore)
 "aJ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/stellardelight/deck2/starboard)
 "aK" = (
@@ -349,13 +345,11 @@
 	dir = 4;
 	pixel_x = -28
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "aQ" = (
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "aR" = (
 /obj/structure/lattice,
@@ -462,9 +456,7 @@
 	dir = 4;
 	id = "shuttleshutter"
 	},
-/obj/structure/window/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/structure/window/reinforced/full,
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/sdboat/fore/airless_base)
 "bf" = (
@@ -479,14 +471,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#323d80";
-	fill_color = "#313866";
 	id_tag = "hopdoor";
 	name = "Head of Personnel";
-	req_access = list(57);
-	stripe_color = "#a3d1d1"
+	req_access = list(57)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/hop)
@@ -495,12 +484,10 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	door_color = "#e6ab22";
 	name = "Command Substation";
-	req_one_access = list(10);
-	stripe_color = "#e6ab22"
+	req_one_access = list(10)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/stellardelight/deck3/starboardfore)
@@ -588,7 +575,7 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/crew_quarters/heads/hor)
 "by" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "bB" = (
 /obj/structure/cable{
@@ -702,13 +689,12 @@
 /turf/simulated/floor,
 /area/stellardelight/deck2/central)
 "bU" = (
-/turf/simulated/wall/bay{
-	desc = "It has a blue stripe! A huge chunk of metal used to seperate rooms.";
-	stripe_color = "#2e2aa1"
+/turf/simulated/wall{
+	desc = "It has a blue stripe! A huge chunk of metal used to seperate rooms."
 	},
 /area/stellardelight/deck3/commandhall)
 "bV" = (
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "bW" = (
@@ -744,7 +730,7 @@
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "cb" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/chief)
 "cc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -761,7 +747,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	dir = 4;
 	name = "Robotic Storage";
 	req_access = list(16)
@@ -816,9 +802,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "cp" = (
@@ -853,7 +837,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/security{
 	dir = 4;
 	name = "AI Storage";
 	req_access = list(16)
@@ -906,7 +890,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
 "cA" = (
 /obj/structure/bed/chair{
@@ -916,7 +900,7 @@
 /turf/simulated/floor/glass/reinforced,
 /area/stellardelight/deck3/aft)
 "cH" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -1070,10 +1054,9 @@
 /area/stellardelight/deck3/aft)
 "du" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/cable/blue{
 	icon_state = "4-8"
@@ -1094,7 +1077,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/portdock)
 "dx" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "dy" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -1166,9 +1149,8 @@
 "dN" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/hatch{
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/bar)
@@ -1177,9 +1159,7 @@
 /obj/machinery/door/blast/shuttle/open{
 	id = "shuttleshutter"
 	},
-/obj/structure/window/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/structure/window/reinforced/full,
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/sdboat/aft/airless_base)
 "dS" = (
@@ -1198,7 +1178,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/port)
 "dU" = (
-/turf/simulated/wall/bay/blue,
+/turf/simulated/wall,
 /area/lawoffice)
 "dV" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -1320,7 +1300,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "eo" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	cell_type = /obj/item/cell/super
 	},
@@ -1362,14 +1342,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#323d80";
-	fill_color = "#313866";
 	id_tag = "rddoor";
 	name = "Research Director";
-	req_access = list(30);
-	stripe_color = "#5a19a8"
+	req_access = list(30)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/hor)
@@ -1409,9 +1386,9 @@
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "ez" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardfore)
@@ -1433,7 +1410,7 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
 "eE" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /obj/structure/table/rack,
@@ -1456,12 +1433,10 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/bar)
 "eJ" = (
-/turf/simulated/wall/fancy_shuttle/nondense{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/fore/airless_base)
 "eK" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -1490,7 +1465,7 @@
 /obj/machinery/camera/network/command{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "eN" = (
 /obj/structure/cable/green{
@@ -1505,7 +1480,7 @@
 /area/stellardelight/deck3/aft)
 "eP" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/color/common{
+/obj/machinery/door/airlock{
 	dir = 4;
 	name = "Holodeck"
 	},
@@ -1609,7 +1584,7 @@
 	pixel_y = 12
 	},
 /obj/structure/table/woodentable,
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /obj/machinery/status_display{
 	pixel_x = -32
 	},
@@ -1620,10 +1595,9 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -1638,9 +1612,7 @@
 	dir = 1;
 	pixel_y = -28
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "fh" = (
@@ -1677,11 +1649,11 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/bar)
 "fv" = (
 /obj/machinery/holoplant,
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue{
@@ -1756,7 +1728,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portaft)
 "fS" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/crew_quarters/heads/hop)
 "fT" = (
 /obj/machinery/light_switch{
@@ -1810,9 +1782,7 @@
 /area/tcommsat/chamber)
 "gi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "gj" = (
 /obj/structure/table/rack/shelf,
@@ -1840,9 +1810,7 @@
 /obj/structure/closet/emergsuit_wall{
 	pixel_y = 32
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "gm" = (
@@ -1965,7 +1933,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/aft)
 "gN" = (
 /obj/structure/cable/blue{
@@ -2035,7 +2003,8 @@
 /area/tcommsat/chamber)
 "gV" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "glass airlock"
 	},
 /obj/structure/cable{
@@ -2104,15 +2073,12 @@
 /area/stellardelight/deck3/exterior)
 "hg" = (
 /obj/effect/fancy_shuttle/sd_shuttle{
-	dir = 1;
-	fancy_shuttle_tag = "sdboat"
+	dir = 1
 	},
 /obj/effect/fancy_shuttle_floor_preview/sd_shuttle{
 	dir = 1
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "hj" = (
 /obj/machinery/portable_atmospherics/hydroponics,
@@ -2182,7 +2148,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/fore)
 "hD" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "hE" = (
 /obj/structure/cable{
@@ -2198,6 +2164,10 @@
 	dir = 8
 	},
 /obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
+	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "hF" = (
@@ -2225,11 +2195,10 @@
 /area/ai_upload)
 "hN" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/portdock)
 "hO" = (
@@ -2251,22 +2220,20 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/starboard)
 "hQ" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/aftstarroom)
 "hR" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "hT" = (
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardfore)
 "hU" = (
 /obj/structure/sign/painting/library_secure{
@@ -2344,7 +2311,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "in" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/hop)
 "ip" = (
 /obj/structure/cable{
@@ -2360,7 +2327,7 @@
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "is" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	name = "AI/Telecoms";
 	req_access = list(16)
 	},
@@ -2369,7 +2336,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai_upload)
 "iv" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2384,9 +2351,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
@@ -2427,11 +2392,9 @@
 /area/stellardelight/deck3/cryo)
 "iE" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	door_color = "#e6ab22";
+/obj/machinery/door/airlock/hatch{
 	name = "Shield Generator";
-	req_one_access = list(11,24);
-	stripe_color = "#e6ab22"
+	req_one_access = list(11,24)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/commandhall)
@@ -2449,7 +2412,7 @@
 	dir = 4;
 	pixel_x = 27
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "iJ" = (
 /obj/machinery/cryopod/robot,
@@ -2558,9 +2521,7 @@
 /area/crew_quarters/bar)
 "jc" = (
 /obj/machinery/computer/ship/sensors/adv,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "jd" = (
@@ -2574,8 +2535,7 @@
 /area/stellardelight/deck3/transitgateway)
 "jg" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/stellardelight/deck3/starboarddock)
 "jh" = (
@@ -2583,7 +2543,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 30
 	},
@@ -2613,14 +2573,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#323d80";
-	fill_color = "#858585";
 	id_tag = "cedoor";
 	name = "Chief Engineer";
-	req_access = list(56);
-	stripe_color = "#e6ab22"
+	req_access = list(56)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/chief)
@@ -2640,8 +2597,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/aftstarroom)
 "jy" = (
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/blast/angled/open{
 	dir = 4;
@@ -2682,10 +2638,10 @@
 	},
 /area/tcommsat/chamber)
 "jK" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "jL" = (
 /obj/structure/lattice,
@@ -2716,10 +2672,10 @@
 	dir = 4;
 	pixel_x = -32
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "jP" = (
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
@@ -2793,8 +2749,7 @@
 /area/tcommsat/chamber)
 "ki" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portaft)
 "kj" = (
@@ -2826,7 +2781,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -2841,7 +2796,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/substation/command)
 "kr" = (
@@ -2896,9 +2851,7 @@
 /obj/effect/map_helper/airlock/door/ext_door,
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/glass_external,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
 	},
@@ -2937,13 +2890,13 @@
 /turf/simulated/floor,
 /area/stellardelight/deck2/fore)
 "kP" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portfore)
 "kQ" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "kT" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -3016,9 +2969,7 @@
 	pixel_y = 2
 	},
 /obj/effect/map_helper/airlock/sensor/int_sensor,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/structure/closet/emergsuit_wall{
 	dir = 1;
 	pixel_y = -32
@@ -3045,9 +2996,7 @@
 	dir = 8;
 	pixel_x = -32
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/binary/pump/fuel{
 	dir = 1
 	},
@@ -3062,10 +3011,9 @@
 /area/maintenance/stellardelight/deck3/starboardaft)
 "lh" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -3098,7 +3046,7 @@
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "lm" = (
 /obj/machinery/light{
@@ -3190,16 +3138,14 @@
 "lB" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/glass,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "lC" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/green{
@@ -3289,20 +3235,17 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/stellardelight/deck3/transitgateway)
 "lU" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#9c9c9c";
-	fill_color = "#5c5c5c";
 	id_tag = "readingroom1";
-	name = "Room 1";
-	stripe_color = "#89bd66"
+	name = "Room 1"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/readingroom)
@@ -3323,7 +3266,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1379;
 	id_tag = "portmaint_exterior";
@@ -3358,7 +3301,7 @@
 /turf/simulated/floor/carpet,
 /area/stellardelight/deck3/readingroom)
 "me" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "mf" = (
 /obj/effect/shuttle_landmark/premade/sd/deck3/portairlock,
@@ -3391,16 +3334,12 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "mi" = (
 /obj/machinery/shipsensors/fancy_shuttle,
-/turf/simulated/wall/fancy_shuttle/nondense{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/fore/airless_base)
 "mj" = (
 /obj/structure/lattice,
@@ -3462,7 +3401,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -3483,9 +3422,7 @@
 	frequency = 1381;
 	id_tag = "sdboat_docker_pump_out_external"
 	},
-/turf/simulated/wall/fancy_shuttle/low{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "mA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3527,7 +3464,7 @@
 	pixel_x = -24;
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "mK" = (
 /obj/structure/cable{
@@ -3564,8 +3501,7 @@
 /area/crew_quarters/heads/hor)
 "mQ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portfore)
 "mR" = (
@@ -3628,7 +3564,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1379;
 	id_tag = "starmaint_exterior";
@@ -3660,10 +3596,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/cafe)
@@ -3729,7 +3664,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -3749,10 +3684,9 @@
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "nw" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	dir = 8;
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 1;
+	name = "maintenance access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -3770,7 +3704,7 @@
 /area/stellardelight/deck3/cafe)
 "nB" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -3799,7 +3733,7 @@
 	},
 /area/tcommsat/chamber)
 "nD" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -3874,7 +3808,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "nP" = (
-/turf/simulated/wall/bay/purple,
+/turf/simulated/wall,
 /area/crew_quarters/heads/hor)
 "nS" = (
 /obj/machinery/hologram/holopad,
@@ -3892,7 +3826,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portaft)
 "nW" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/stellardelight/deck3/cafe)
 "nX" = (
 /obj/structure/cable/green{
@@ -3982,7 +3916,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -4075,7 +4009,7 @@
 /obj/machinery/newscaster{
 	pixel_y = 28
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "oE" = (
 /obj/machinery/hologram/holopad,
@@ -4210,7 +4144,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	name = "Telecoms Control Room";
 	req_access = list(61)
 	},
@@ -4219,7 +4153,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/tcommsat/computer)
 "oZ" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/stellardelight/deck3/readingroom)
 "pb" = (
 /obj/structure/cable/green{
@@ -4242,14 +4176,14 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "pd" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /obj/structure/cable/blue{
 	icon_state = "0-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "pf" = (
 /obj/structure/cable/green{
@@ -4306,7 +4240,7 @@
 	dir = 4
 	},
 /obj/structure/flora/pottedplant/decorative,
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "pp" = (
 /obj/structure/cable/green{
@@ -4354,9 +4288,8 @@
 /area/tcommsat/chamber)
 "pz" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/hatch{
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -4452,7 +4385,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "pO" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue{
@@ -4467,7 +4400,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4485,7 +4418,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -4507,11 +4440,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
-	door_color = "#323d80";
+/obj/machinery/door/airlock/hatch{
 	name = "maintenance access";
-	req_one_access = list(16);
-	stripe_color = "#323d80"
+	req_one_access = list(16)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai_cyborg_station)
@@ -4547,7 +4478,7 @@
 /area/ai_cyborg_station)
 "qe" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -4617,7 +4548,7 @@
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "qq" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/tcommsat/computer)
 "qs" = (
 /obj/structure/table/rack,
@@ -4635,14 +4566,12 @@
 /obj/structure/cable/cyan{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	door_color = "#323d80";
 	id_tag = "AICore";
 	locked = 1;
 	name = "AI Core";
-	req_one_access = list(16);
-	stripe_color = "#323d80"
+	req_one_access = list(16)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai)
@@ -4732,11 +4661,9 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
-	door_color = "#323d80";
+/obj/machinery/door/airlock/hatch{
 	name = "maintenance access";
-	req_one_access = list(16);
-	stripe_color = "#323d80"
+	req_one_access = list(16)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai_cyborg_station)
@@ -4782,10 +4709,9 @@
 /area/tcommsat/chamber)
 "qW" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/cable/blue{
 	icon_state = "4-8"
@@ -4801,14 +4727,14 @@
 	dir = 5
 	},
 /obj/structure/reagent_dispensers/fueltank,
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "qZ" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue{
@@ -4824,7 +4750,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ai_upload)
 "rc" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/commandhall)
 "rg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4845,9 +4771,7 @@
 "ri" = (
 /obj/structure/handrail,
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 4
 	},
@@ -4903,7 +4827,7 @@
 	pixel_x = 32;
 	req_one_access = list(13)
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1379;
 	id_tag = "portmaint_interior";
 	locked = 1;
@@ -4950,7 +4874,7 @@
 	},
 /area/tcommsat/chamber)
 "rx" = (
-/turf/simulated/wall/bay/white,
+/turf/simulated/wall,
 /area/crew_quarters/heads/cmo)
 "rA" = (
 /obj/structure/table/reinforced,
@@ -4959,14 +4883,12 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
 "rB" = (
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	door_color = "#323d80";
 	id_tag = "AICore";
 	locked = 1;
 	name = "AI Core";
-	req_one_access = list(16);
-	stripe_color = "#323d80"
+	req_one_access = list(16)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai)
@@ -5005,9 +4927,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portfore)
 "rX" = (
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5026,9 +4946,7 @@
 /obj/effect/map_helper/airlock/door/int_door,
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/door/airlock/glass_external,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
@@ -5042,7 +4960,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	name = "AI Storage";
 	req_access = list(16)
 	},
@@ -5051,7 +4969,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/ai_cyborg_station)
 "sc" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai)
 "sd" = (
 /obj/structure/lattice,
@@ -5066,7 +4984,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "si" = (
 /obj/structure/table/woodentable,
@@ -5079,7 +4997,7 @@
 /turf/simulated/floor/lino,
 /area/stellardelight/deck3/cafe)
 "sj" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -5129,7 +5047,7 @@
 /area/ai)
 "ss" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -5163,7 +5081,7 @@
 /turf/simulated/floor/carpet/turcarpet,
 /area/ai)
 "su" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8;
 	cell_type = /obj/item/cell/super
 	},
@@ -5178,12 +5096,10 @@
 /area/stellardelight/deck2/central)
 "sz" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	door_color = "#e6ab22";
 	name = "Shield Generator";
-	req_one_access = list(11,24);
-	stripe_color = "#e6ab22"
+	req_one_access = list(11,24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5302,7 +5218,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portaft)
 "tb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -5344,7 +5260,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "th" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
 "tk" = (
 /obj/structure/cable{
@@ -5408,7 +5324,7 @@
 /area/ai_upload)
 "tC" = (
 /obj/structure/sign/vacuum,
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "tF" = (
 /obj/structure/cable/green{
@@ -5448,7 +5364,7 @@
 	dir = 1
 	},
 /obj/structure/flora/pottedplant/decorative,
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "tK" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -5498,7 +5414,7 @@
 /area/ai_cyborg_station)
 "tR" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -5521,7 +5437,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "tV" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -5572,9 +5488,7 @@
 /area/stellardelight/deck2/port)
 "ui" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/portables_connector/fuel{
 	dir = 1
 	},
@@ -5585,7 +5499,7 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "uj" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/hor)
 "uk" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5{
@@ -5619,13 +5533,13 @@
 /turf/simulated/floor/airless,
 /area/stellardelight/deck3/exterior)
 "uq" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/starboarddock)
 "ur" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "us" = (
 /obj/machinery/light{
@@ -5676,9 +5590,8 @@
 /area/stellardelight/deck3/cryo)
 "uB" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
-/obj/structure/low_wall/bay/reinforced/blue,
 /turf/simulated/floor,
 /area/tcommsat/computer)
 "uD" = (
@@ -5717,7 +5630,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portcent)
 "uM" = (
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /obj/structure/table/woodentable,
 /obj/item/flashlight/lamp/clown{
 	pixel_x = -4;
@@ -5734,7 +5647,7 @@
 /turf/simulated/floor/wood,
 /area/stellardelight/deck3/clownmimeoffice)
 "uQ" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /obj/machinery/computer/shuttle_control/explore/sdboat{
@@ -5756,13 +5669,10 @@
 /area/ai_cyborg_station)
 "uU" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#9c9c9c";
-	fill_color = "#5c5c5c";
 	id_tag = "readingroom3";
-	name = "Room 3";
-	stripe_color = "#89bd66"
+	name = "Room 3"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/readingroom)
@@ -5886,15 +5796,13 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portaft)
 "vr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 9
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "vt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5925,7 +5833,7 @@
 /area/stellardelight/deck3/aft)
 "vw" = (
 /obj/structure/sign/department/shield,
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/commandhall)
 "vy" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -5935,7 +5843,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "vA" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 1;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -6006,11 +5914,9 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
-	door_color = "#323d80";
+/obj/machinery/door/airlock/hatch{
 	name = "maintenance access";
-	req_one_access = list(19,38);
-	stripe_color = "#323d80"
+	req_one_access = list(19,38)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/commandhall)
@@ -6057,9 +5963,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 4
 	},
@@ -6070,8 +5974,7 @@
 /area/shuttle/sdboat/aft/airless_base)
 "wa" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/stellardelight/deck2/port)
 "wd" = (
@@ -6081,7 +5984,7 @@
 /obj/item/aiModule/purge,
 /obj/item/aiModule/antimov,
 /obj/item/aiModule/teleporterOffline,
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
@@ -6148,19 +6051,16 @@
 /area/crew_quarters/heads/hos)
 "wr" = (
 /obj/machinery/computer/ship/engines/adv,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "wt" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/angled/open{
 	dir = 4;
 	id = "readingroom2"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/readingroom)
 "wv" = (
@@ -6188,13 +6088,13 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/fore)
 "wA" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
 /area/ai_upload)
 "wG" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -6235,7 +6135,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "wR" = (
 /obj/structure/lattice,
@@ -6268,7 +6168,7 @@
 	dir = 8;
 	pixel_x = -27
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "wW" = (
 /obj/structure/cable/green{
@@ -6293,9 +6193,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "xb" = (
 /obj/machinery/light/small{
@@ -6338,18 +6236,15 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "xg" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/low_wall/bay/reinforced/blue,
 /turf/simulated/floor,
 /area/crew_quarters/heads/hop)
 "xh" = (
@@ -6399,7 +6294,7 @@
 /turf/simulated/floor/wood,
 /area/stellardelight/deck3/clownmimeoffice)
 "xu" = (
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1379;
 	id_tag = "starmaint_exterior";
@@ -6431,7 +6326,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "xy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -6494,18 +6389,12 @@
 /area/maintenance/stellardelight/deck3/starboardcent)
 "xI" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportroomb)
-"xL" = (
-/turf/simulated/wall/fancy_shuttle/low{
-	fancy_shuttle_tag = "sdboat"
-	},
-/area/shuttle/sdboat/aft/airless_base)
 "xM" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -6563,7 +6452,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "xW" = (
 /obj/machinery/door/firedoor/glass,
@@ -6585,9 +6474,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "yb" = (
@@ -6619,10 +6506,9 @@
 /area/crew_quarters/heads/hop)
 "yf" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	dir = 8;
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 1;
+	name = "maintenance access"
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardcent)
@@ -6635,7 +6521,7 @@
 	name = "Powernet Sensor - Command Subgrid";
 	name_tag = "Command Subgrid"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -6644,7 +6530,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/aft)
 "ym" = (
 /obj/structure/table/rack,
@@ -6717,11 +6603,10 @@
 /area/stellardelight/deck3/transitgateway)
 "yy" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "yB" = (
@@ -6729,7 +6614,7 @@
 /turf/simulated/floor/carpet/tealcarpet,
 /area/crew_quarters/heads/cmo)
 "yC" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue,
@@ -6748,7 +6633,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "glass airlock"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -6760,7 +6646,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
 "yI" = (
 /obj/item/folder{
@@ -6793,12 +6679,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/color{
-	door_color = "#323d80";
-	fill_color = "#313866";
+/obj/machinery/door/airlock{
 	name = "Head of Personnel";
-	req_access = list(57);
-	stripe_color = "#a3d1d1"
+	req_access = list(57)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/hop)
@@ -6810,8 +6693,7 @@
 /area/stellardelight/deck2/starboard)
 "yR" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portcent)
 "yS" = (
@@ -6824,7 +6706,7 @@
 	pixel_y = 32;
 	req_one_access = list(13)
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -6854,9 +6736,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "yZ" = (
-/obj/machinery/door/airlock/angled_bay/hatch{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/hatch{
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/readingroom)
@@ -6885,7 +6766,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "zf" = (
 /obj/structure/cable/blue{
@@ -6938,13 +6819,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
 "zn" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/blue,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/tcommsat/computer)
 "zo" = (
@@ -7008,7 +6888,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "zz" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/stellardelight/deck3/commandhall)
 "zA" = (
 /obj/structure/cable{
@@ -7031,7 +6911,7 @@
 /obj/effect/landmark{
 	name = "lightsout"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "zC" = (
 /obj/item/toy/figure/mime,
@@ -7066,7 +6946,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/bcarpet,
@@ -7114,7 +6994,7 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	pixel_x = -32;
 	pixel_y = 19
 	},
@@ -7148,7 +7028,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ai_cyborg_station)
 "zN" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/hos)
 "zQ" = (
 /obj/structure/table/steel,
@@ -7165,9 +7045,7 @@
 	req_one_access = list(11,67)
 	},
 /obj/structure/cable/green,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "zV" = (
@@ -7188,7 +7066,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/fore)
 "zX" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/readingroom)
 "zY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
@@ -7229,7 +7107,7 @@
 /turf/simulated/floor/carpet/blue2,
 /area/lawoffice)
 "Al" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -7242,7 +7120,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/aftstarroom)
 "Am" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	req_access = list(19,43,67)
 	},
@@ -7321,7 +7199,7 @@
 /obj/machinery/camera/network/command{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "Ax" = (
 /obj/machinery/holoplant,
@@ -7365,9 +7243,7 @@
 	pixel_y = 2
 	},
 /obj/effect/map_helper/airlock/sensor/chamber_sensor,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "AE" = (
@@ -7375,7 +7251,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "AH" = (
 /obj/structure/cable{
@@ -7393,7 +7269,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "AP" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue{
@@ -7416,7 +7292,7 @@
 	dir = 8;
 	network = "tcommsat"
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -7429,9 +7305,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
@@ -7488,13 +7364,11 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "Bd" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /obj/structure/bookcase,
@@ -7524,10 +7398,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7586,7 +7459,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/aftstarroom)
 "Bp" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/substation/command)
 "Bq" = (
 /obj/machinery/status_display{
@@ -7641,20 +7514,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#323d80";
-	fill_color = "#313866";
 	id_tag = "cmodoor";
 	name = "Chief Medical Officer";
-	req_access = list(40);
-	stripe_color = "#ffffff"
+	req_access = list(40)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/cmo)
 "BA" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -7676,11 +7546,10 @@
 /area/stellardelight/deck3/portdock)
 "BB" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 1
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/aft)
 "BC" = (
@@ -7707,11 +7576,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	door_color = "#e6ab22";
+/obj/machinery/door/airlock/hatch{
 	name = "Command Substation";
-	req_one_access = list(10);
-	stripe_color = "#e6ab22"
+	req_one_access = list(10)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/stellardelight/substation/command)
@@ -7732,7 +7599,8 @@
 /area/crew_quarters/heads/hos)
 "BJ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "glass airlock"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -7747,7 +7615,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "BL" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -7804,7 +7672,7 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -7816,9 +7684,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
 	dir = 1
 	},
@@ -7839,14 +7705,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
+	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portaft)
 "Cc" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7882,10 +7751,9 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/stellardelight/deck3/portcent)
@@ -7921,7 +7789,7 @@
 /turf/simulated/floor,
 /area/stellardelight/deck2/fore)
 "Cu" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -7993,16 +7861,15 @@
 /area/stellardelight/deck2/port)
 "CA" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/angled/open{
 	dir = 2;
 	id = "barlockdown"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/crew_quarters/bar)
 "CC" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/clownmimeoffice)
 "CD" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -8052,8 +7919,7 @@
 /area/stellardelight/deck2/starboard)
 "CK" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "CO" = (
@@ -8149,7 +8015,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
 "Df" = (
 /obj/machinery/door/firedoor/glass,
@@ -8221,13 +8087,13 @@
 	},
 /area/tcommsat/chamber)
 "DC" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "DD" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/angled_bay/standard/glass{
+/obj/machinery/door/airlock/glass{
 	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -8249,7 +8115,7 @@
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "DI" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /obj/structure/cable/blue{
@@ -8323,7 +8189,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/wall/bay/blue,
+/turf/simulated/wall,
 /area/lawoffice)
 "DW" = (
 /obj/structure/cable{
@@ -8362,10 +8228,10 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "Ec" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/stellardelight/deck3/clownmimeoffice)
 "Ed" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/aft)
 "Ee" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/black{
@@ -8447,7 +8313,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/hos)
 "Eu" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck2/port)
 "Ev" = (
 /obj/structure/cable/blue{
@@ -8466,9 +8332,7 @@
 /obj/structure/bed/chair/bay/comfy/blue{
 	dir = 1
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "EE" = (
@@ -8510,14 +8374,13 @@
 /turf/simulated/floor/airless,
 /area/maintenance/stellardelight/deck3/portcent)
 "EJ" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/heads/cmo)
 "EL" = (
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	locked = 1;
 	name = "Telecoms Server Access";
-	req_access = list(61);
-	stripe_color = "#ffd863"
+	req_access = list(61)
 	},
 /obj/machinery/door/firedoor/glass,
 /obj/structure/cable/blue{
@@ -8601,15 +8464,13 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "EX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "EY" = (
 /obj/structure/table/reinforced,
@@ -8620,7 +8481,7 @@
 /turf/simulated/floor/carpet/oracarpet,
 /area/crew_quarters/heads/chief)
 "EZ" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "Fb" = (
 /obj/structure/lattice,
@@ -8645,7 +8506,7 @@
 "Ff" = (
 /obj/structure/bed/chair,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
@@ -8663,14 +8524,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#323d80";
-	fill_color = "#854a44";
 	id_tag = "hosdoor";
 	name = "Head of Security";
-	req_access = list(58);
-	stripe_color = "#d27428"
+	req_access = list(58)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/heads/hos)
@@ -8730,7 +8588,7 @@
 /turf/simulated/floor/airless,
 /area/maintenance/stellardelight/deck3/portcent)
 "FC" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /obj/structure/cable/blue{
@@ -8746,8 +8604,7 @@
 /area/lawoffice)
 "FD" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/forestarroomb)
 "FE" = (
@@ -8792,13 +8649,13 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "FO" = (
 /obj/structure/bed/psych{
 	name = "couch"
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "FR" = (
 /obj/effect/floor_decal/techfloor/orange,
@@ -8826,7 +8683,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ai_cyborg_station)
 "FW" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -8873,7 +8730,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/alarm/angled,
+/obj/machinery/alarm,
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
@@ -8908,7 +8765,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/stellardelight/deck3/commandhall)
 "Gk" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portaft)
 "Gl" = (
 /obj/structure/bed/chair/office/dark{
@@ -9021,7 +8878,7 @@
 /turf/simulated/floor/bluegrid,
 /area/ai)
 "GQ" = (
-/turf/simulated/wall/bay/red,
+/turf/simulated/wall,
 /area/crew_quarters/heads/hos)
 "GR" = (
 /obj/machinery/requests_console/preset/cmo{
@@ -9042,6 +8899,10 @@
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
+	},
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portcent)
@@ -9089,7 +8950,7 @@
 	name = "Powernet Sensor - AI/Telecomms Subgrid";
 	name_tag = "AI/Telecomms Subgrid"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -9157,7 +9018,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "Hk" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -9181,7 +9042,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/fore)
 "Hs" = (
-/turf/simulated/wall/bay/orange,
+/turf/simulated/wall,
 /area/crew_quarters/heads/chief)
 "Ht" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -9250,7 +9111,7 @@
 	},
 /obj/machinery/light,
 /obj/machinery/holoplant,
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
@@ -9305,23 +9166,19 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "HP" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/starboarddock)
 "HQ" = (
-/obj/machinery/door/airlock/angled_bay/standard/color{
-	door_color = "#9c9c9c";
-	fill_color = "#5c5c5c";
-	name = "Reading Rooms";
-	stripe_color = "#89bd66"
+/obj/machinery/door/airlock{
+	name = "Reading Rooms"
 	},
 /obj/machinery/door/firedoor/glass,
 /obj/structure/cable/green{
@@ -9373,7 +9230,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "HX" = (
 /obj/machinery/light{
@@ -9402,13 +9259,8 @@
 	},
 /turf/simulated/open,
 /area/stellardelight/deck2/central)
-"Ia" = (
-/turf/simulated/wall/fancy_shuttle/nondense{
-	fancy_shuttle_tag = "sdboat"
-	},
-/area/shuttle/sdboat/aft/airless_base)
 "Ib" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -9432,7 +9284,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/port)
 "Ii" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/holodeck_control)
 "Ij" = (
 /obj/structure/cable/green{
@@ -9472,9 +9324,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "It" = (
@@ -9605,10 +9455,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	name = "Clown and Mime Office";
-	req_one_access = list(138,136);
-	stripe_color = "#454545"
+	req_one_access = list(138,136)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9653,7 +9502,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/aft)
 "Ja" = (
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1379;
 	id_tag = "starmaint_interior";
 	locked = 1;
@@ -9709,7 +9558,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -9737,10 +9586,9 @@
 /area/stellardelight/deck3/clownmimeoffice)
 "Jn" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -9805,14 +9653,14 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/heads/hor)
 "Jx" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/forestarrooma)
 "Jz" = (
 /obj/machinery/door/firedoor/glass,
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	name = "AI Core";
 	req_access = list(16)
 	},
@@ -9822,7 +9670,7 @@
 /area/ai)
 "JA" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -9838,7 +9686,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/aft)
 "JE" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -9871,7 +9719,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	name = "AI Upload";
 	req_access = list(16)
 	},
@@ -9964,9 +9812,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 6
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "Kf" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -10020,9 +9866,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "Kk" = (
@@ -10048,7 +9892,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/forestarrooma)
 "Ks" = (
 /obj/structure/cable/blue{
@@ -10086,7 +9930,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "Kx" = (
 /obj/structure/cable/blue{
@@ -10162,7 +10006,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "KL" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /obj/structure/cable/green{
@@ -10177,7 +10021,7 @@
 /turf/simulated/floor/tiled,
 /area/stellardelight/deck3/portdock)
 "KM" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/turcarpet,
@@ -10223,6 +10067,10 @@
 /area/maintenance/stellardelight/deck3/forestarrooma)
 "KW" = (
 /obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
+	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portfore)
 "KY" = (
@@ -10359,7 +10207,7 @@
 /obj/machinery/newscaster{
 	pixel_x = 30
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "LC" = (
 /obj/machinery/holoplant,
@@ -10410,7 +10258,7 @@
 /obj/structure/sign/painting/public{
 	pixel_y = -30
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -10419,9 +10267,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "LP" = (
@@ -10467,9 +10313,8 @@
 /area/maintenance/stellardelight/deck3/starboardcent)
 "LS" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/hatch{
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/holodeck_control)
@@ -10484,10 +10329,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/stellardelight/deck3/portaft)
@@ -10535,7 +10379,7 @@
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 10
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/green{
@@ -10618,7 +10462,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -10654,7 +10498,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portaft)
 "MB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -10816,16 +10660,14 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "MZ" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -11010,19 +10852,16 @@
 /area/stellardelight/deck2/port)
 "NJ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#9c9c9c";
-	fill_color = "#5c5c5c";
 	id_tag = "readingroom2";
-	name = "Room 2";
-	stripe_color = "#89bd66"
+	name = "Room 2"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/readingroom)
 "NK" = (
 /obj/structure/sign/vacuum,
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portcent)
 "NL" = (
 /turf/simulated/floor/airless,
@@ -11041,10 +10880,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/aft)
@@ -11081,7 +10919,7 @@
 	pixel_y = 32;
 	req_one_access = list(13)
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1379;
 	id_tag = "portmaint_exterior";
@@ -11092,9 +10930,9 @@
 /area/maintenance/stellardelight/deck3/portcent)
 "NR" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
 	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/portaft)
@@ -11102,9 +10940,7 @@
 /obj/machinery/atmospherics/unary/engine/fancy_shuttle{
 	dir = 1
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "NT" = (
 /obj/effect/floor_decal/steeldecal/steel_decals5{
@@ -11116,7 +10952,7 @@
 /turf/simulated/floor/tiled,
 /area/holodeck_control)
 "NU" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor,
@@ -11143,7 +10979,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -11226,7 +11062,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardfore)
 "Oo" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -11285,7 +11121,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	dir = 4;
 	name = "Telecoms Access";
 	req_one_access = list(16,17,61)
@@ -11325,23 +11161,21 @@
 /area/stellardelight/deck3/cafe)
 "Oz" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/stellardelight/deck3/cafe)
 "OA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_cyborg_station)
 "OC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	locked = 1;
 	name = "Telecoms Server Access";
-	req_access = list(61);
-	stripe_color = "#ffd863"
+	req_access = list(61)
 	},
 /obj/machinery/door/firedoor/glass,
 /obj/structure/cable/blue{
@@ -11480,7 +11314,7 @@
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "OR" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4;
 	name = "night shift APC";
 	nightshift_setting = 2
@@ -11501,7 +11335,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ai_cyborg_station)
 "OU" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/cryo)
 "OX" = (
 /turf/simulated/floor,
@@ -11541,10 +11375,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	name = "maintenance access";
-	stripe_color = "#454545"
+	name = "maintenance access"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/maintenance/stellardelight/deck3/starboardcent)
@@ -11555,7 +11388,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11575,9 +11408,7 @@
 	name = "Starstuff Cockpit";
 	req_one_access = list(67)
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -11650,12 +11481,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "PC" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /obj/structure/cable/blue{
@@ -11770,9 +11599,7 @@
 	},
 /obj/effect/overmap/visitable/ship/landable/sd_boat,
 /obj/effect/shuttle_landmark/shuttle_initializer/sdboat,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
@@ -11789,9 +11616,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "Qi" = (
 /obj/structure/sign/painting/public{
@@ -11829,7 +11654,7 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
 "Qp" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/crew_quarters/bar)
 "Qs" = (
 /obj/structure/cable/cyan{
@@ -11850,7 +11675,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -11917,7 +11742,7 @@
 /area/ai_cyborg_station)
 "QJ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -11936,7 +11761,7 @@
 /obj/structure/bed/chair/comfy/brown{
 	dir = 8
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
@@ -11979,11 +11804,9 @@
 /area/maintenance/stellardelight/deck3/portcent)
 "QT" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/standard/glass{
-	door_color = "#323d80";
+/obj/machinery/door/airlock/glass_command{
 	name = "Command Offices";
-	req_one_access = list(19,38);
-	stripe_color = "#f7d35c"
+	req_one_access = list(19,38)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/stellardelight/deck3/commandhall)
@@ -12038,7 +11861,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/forestarrooma)
 "Ri" = (
 /obj/structure/cable/blue{
@@ -12051,7 +11874,7 @@
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/airlock/angled_bay/standard/glass{
+/obj/machinery/door/airlock/glass{
 	name = "maintenance access"
 	},
 /obj/structure/cable/blue{
@@ -12078,8 +11901,7 @@
 /area/stellardelight/deck3/commandhall)
 "Rn" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/blue,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/crew_quarters/heads/hop)
 "Ro" = (
@@ -12093,7 +11915,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/machinery/door/airlock/angled_bay/standard/glass/common{
+/obj/machinery/door/airlock/glass{
 	dir = 4;
 	name = "Long-Range Teleporter Access"
 	},
@@ -12132,9 +11954,7 @@
 /area/stellardelight/deck3/aft)
 "Rw" = (
 /obj/machinery/door/firedoor/glass/hidden/shuttle,
-/obj/structure/window/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/structure/window/reinforced/full,
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/sdboat/aft/airless_base)
 "Rx" = (
@@ -12167,7 +11987,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/starboard)
 "RE" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardfore)
 "RG" = (
 /obj/machinery/light/small{
@@ -12179,7 +11999,7 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 1
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -12195,10 +12015,14 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
+	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardfore)
 "RL" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "RM" = (
 /obj/structure/cable/green{
@@ -12234,12 +12058,10 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/hatch{
+/obj/machinery/door/airlock/hatch{
 	dir = 4;
-	door_color = "#e6ab22";
 	name = "Shield Generator";
-	req_one_access = list(11,24);
-	stripe_color = "#e6ab22"
+	req_one_access = list(11,24)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -12255,13 +12077,11 @@
 	dir = 1;
 	req_one_access = list(11,67)
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "RX" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/stellardelight/deck2/central)
 "RY" = (
 /obj/structure/bed/chair/shuttle{
@@ -12270,9 +12090,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "RZ" = (
@@ -12318,7 +12136,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
@@ -12367,7 +12185,7 @@
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "Sw" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 8
 	},
 /turf/simulated/floor,
@@ -12425,9 +12243,7 @@
 /area/stellardelight/deck3/aft)
 "SJ" = (
 /obj/machinery/door/firedoor/glass/hidden/shuttle,
-/obj/structure/window/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/structure/window/reinforced/full,
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/sdboat/fore/airless_base)
 "SK" = (
@@ -12459,7 +12275,7 @@
 /obj/machinery/photocopier/faxmachine{
 	department = "CMO's Office"
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "SQ" = (
 /obj/machinery/disposal/wall{
@@ -12472,8 +12288,7 @@
 /area/stellardelight/deck3/commandhall)
 "SR" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportrooma)
 "ST" = (
@@ -12501,20 +12316,19 @@
 /turf/simulated/floor/airless,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "SZ" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /obj/structure/cable/blue{
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "Ta" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/angled_bay/hatch{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/hatch{
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -12550,7 +12364,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double/glass{
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 8;
 	name = "glass airlock"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -12582,14 +12397,13 @@
 /area/crew_quarters/heads/hop)
 "Tk" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/low_wall/bay/reinforced/blue,
 /turf/simulated/floor,
 /area/crew_quarters/heads/hop)
 "Tl" = (
@@ -12622,15 +12436,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "Tp" = (
 /obj/structure/table/glass,
 /obj/machinery/light,
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "Tr" = (
 /obj/machinery/drone_fabricator,
@@ -12641,7 +12455,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	cell_type = /obj/item/cell/super;
 	dir = 8;
 	name = "night shift APC";
@@ -12661,13 +12475,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/color{
+/obj/machinery/door/airlock{
 	dir = 4;
-	door_color = "#9fccc7";
-	fill_color = "#333333";
 	name = "Internal Affairs";
-	req_access = list(38);
-	stripe_color = "#ffffff"
+	req_access = list(38)
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/lawoffice)
@@ -12685,7 +12496,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/aft)
 "TB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -12855,7 +12666,7 @@
 /obj/structure/cable/blue{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/starboardcent)
 "Uj" = (
 /obj/structure/cable/blue,
@@ -12918,9 +12729,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "UF" = (
 /obj/machinery/light/small,
@@ -12935,7 +12744,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/eris/dark/gray_platform,
+/turf/simulated/floor/tiled/dark,
 /area/stellardelight/deck3/commandhall)
 "UH" = (
 /obj/structure/sign/painting/library_secure{
@@ -12966,9 +12775,9 @@
 /area/tcommsat/chamber)
 "UL" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/double{
-	name = "maintenance access";
-	stripe_color = "#454545"
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -12985,6 +12794,10 @@
 /area/ai_upload)
 "UQ" = (
 /obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/multi_tile{
+	dir = 8;
+	name = "maintenance access"
+	},
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardaft)
 "UR" = (
@@ -13024,7 +12837,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/hos)
 "UU" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor,
@@ -13048,7 +12861,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portfore)
 "Vb" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
@@ -13101,8 +12914,7 @@
 /area/crew_quarters/heads/chief)
 "Vg" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/starboardfore)
 "Vh" = (
@@ -13110,9 +12922,7 @@
 /obj/machinery/door/blast/shuttle/open{
 	id = "shuttleshutter"
 	},
-/obj/structure/window/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/structure/window/reinforced/full,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 6
 	},
@@ -13151,7 +12961,7 @@
 /area/crew_quarters/bar)
 "Vo" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	dir = 4;
 	frequency = 1381;
 	locked = 1;
@@ -13206,9 +13016,7 @@
 /obj/structure/bed/chair/shuttle{
 	dir = 1
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "Vx" = (
@@ -13243,7 +13051,7 @@
 /turf/simulated/floor/carpet/tealcarpet,
 /area/crew_quarters/heads/cmo)
 "VC" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_upload)
 "VD" = (
 /obj/structure/table/steel,
@@ -13266,7 +13074,7 @@
 	dir = 8
 	},
 /obj/item/folder/white_cmo,
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "VG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13287,7 +13095,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /turf/simulated/floor,
@@ -13319,7 +13127,7 @@
 /area/stellardelight/deck3/aft)
 "VQ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock/angled_bay/secure{
+/obj/machinery/door/airlock/command{
 	name = "Nuclear Fission Device Storage";
 	req_access = list(16)
 	},
@@ -13335,7 +13143,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/aft)
 "VW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13381,9 +13189,7 @@
 	dir = 4;
 	pixel_x = 24
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "Wi" = (
@@ -13392,9 +13198,7 @@
 /area/ai)
 "Wj" = (
 /obj/machinery/computer/ship/helm/adv,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/fore/airless_base)
 "Wl" = (
@@ -13405,9 +13209,7 @@
 /area/stellardelight/deck2/port)
 "Wn" = (
 /obj/machinery/power/smes/buildable/max_charge,
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
@@ -13466,9 +13268,7 @@
 	frequency = 1381;
 	id_tag = "sdboat_docker_pump_out_internal"
 	},
-/obj/effect/floor_decal/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/obj/effect/floor_decal/fancy_shuttle,
 /turf/simulated/floor/tiled,
 /area/shuttle/sdboat/aft/airless_base)
 "Wx" = (
@@ -13484,7 +13284,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /obj/structure/table/steel_reinforced,
@@ -13540,11 +13340,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/stellardelight/deck3/foreportrooma)
-"WK" = (
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
-/area/shuttle/sdboat/fore/airless_base)
 "WL" = (
 /obj/structure/closet/crate,
 /obj/random/contraband,
@@ -13572,10 +13367,10 @@
 /turf/simulated/floor/tiled/monotile,
 /area/stellardelight/deck3/commandhall)
 "WO" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/lawoffice)
 "WQ" = (
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	cell_type = /obj/item/cell/super;
 	dir = 4;
 	name = "night shift APC";
@@ -13634,7 +13429,7 @@
 	dir = 8
 	},
 /obj/item/retail_scanner/medical,
-/turf/simulated/floor/tiled/eris/white/cargo,
+/turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/cmo)
 "Xb" = (
 /turf/simulated/floor/carpet/gaycarpet,
@@ -13673,8 +13468,7 @@
 /area/stellardelight/deck3/cafe)
 "Xl" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/foreportroomb)
 "Xm" = (
@@ -13706,7 +13500,7 @@
 /obj/structure/cable/blue{
 	icon_state = "1-4"
 	},
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 8
 	},
 /obj/structure/cable/blue{
@@ -13739,7 +13533,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/central)
 "XB" = (
-/turf/simulated/wall/bay/steel,
+/turf/simulated/wall,
 /area/maintenance/stellardelight/substation/command)
 "XC" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -13786,7 +13580,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/angled_bay/standard/glass/common{
+/obj/machinery/door/airlock/glass{
 	dir = 4;
 	name = "Cryogenic Storage"
 	},
@@ -13832,7 +13626,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/lawoffice)
 "XK" = (
-/turf/simulated/wall/bay/r_wall/blue,
+/turf/simulated/wall/r_wall,
 /area/ai_server_room)
 "XO" = (
 /obj/machinery/computer/security,
@@ -13872,7 +13666,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
-/obj/machinery/door/airlock/angled_bay/external/glass{
+/obj/machinery/door/airlock/glass_external{
 	frequency = 1381;
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -13931,9 +13725,6 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/maintenance/stellardelight/deck3/portaft)
-"Yg" = (
-/turf/simulated/wall/bay/r_wall/steel,
 /area/maintenance/stellardelight/deck3/portaft)
 "Yj" = (
 /obj/structure/girder/displaced,
@@ -14054,7 +13845,7 @@
 /turf/simulated/open,
 /area/stellardelight/deck2/starboard)
 "Yz" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/maintenance/stellardelight/deck3/portcent)
 "YA" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4{
@@ -14093,7 +13884,7 @@
 "YE" = (
 /obj/structure/table/standard,
 /obj/random/soap,
-/obj/machinery/power/apc/angled{
+/obj/machinery/power/apc{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -14148,7 +13939,7 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/hop)
 "YN" = (
-/turf/simulated/wall/bay/r_wall/steel,
+/turf/simulated/wall/r_wall,
 /area/stellardelight/deck3/portdock)
 "YO" = (
 /obj/structure/cable/green{
@@ -14187,9 +13978,7 @@
 /turf/simulated/open,
 /area/crew_quarters/bar)
 "Zd" = (
-/turf/simulated/wall/fancy_shuttle{
-	fancy_shuttle_tag = "sdboat"
-	},
+/turf/simulated/wall/titanium,
 /area/shuttle/sdboat/aft/airless_base)
 "Ze" = (
 /turf/simulated/floor/bluegrid{
@@ -14312,7 +14101,7 @@
 /turf/simulated/floor/bluegrid,
 /area/ai)
 "ZB" = (
-/obj/machinery/alarm/angled{
+/obj/machinery/alarm{
 	dir = 4
 	},
 /obj/effect/landmark/stardog,
@@ -14369,12 +14158,11 @@
 /area/stellardelight/deck3/commandhall)
 "ZL" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/angled/open{
 	dir = 4;
 	id = "readingroom3"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/readingroom)
 "ZM" = (
@@ -14396,8 +14184,7 @@
 /area/ai)
 "ZQ" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
-/obj/structure/low_wall/bay/reinforced/steel,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor,
 /area/maintenance/stellardelight/deck3/forestarrooma)
 "ZS" = (
@@ -14408,12 +14195,11 @@
 /area/stellardelight/deck2/port)
 "ZV" = (
 /obj/machinery/door/firedoor/glass,
-/obj/structure/window/bay/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
 /obj/machinery/door/blast/angled/open{
 	dir = 4;
 	id = "readingroom1"
 	},
-/obj/structure/low_wall/bay/reinforced/steel,
 /turf/simulated/floor,
 /area/stellardelight/deck3/readingroom)
 "ZX" = (
@@ -20933,7 +20719,7 @@ sM
 sM
 sM
 sM
-Ia
+Zd
 Zd
 Zd
 Vh
@@ -21070,9 +20856,9 @@ qz
 Ii
 hk
 eJ
-WK
-WK
-WK
+eJ
+eJ
+eJ
 dQ
 Zd
 Zd
@@ -21211,10 +20997,10 @@ qz
 qz
 Ii
 Iz
-WK
-WK
+eJ
+eJ
 Kj
-WK
+eJ
 gl
 RY
 aP
@@ -21317,29 +21103,29 @@ NL
 NL
 TE
 NL
-Yg
-Yg
-Yg
-Yg
+Gk
+Gk
+Gk
+Gk
 ki
 ki
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 vq
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 ki
 ki
-Yg
+Gk
 Ii
 qz
 qz
@@ -21365,7 +21151,7 @@ cn
 iw
 zS
 Zd
-xL
+Zd
 sM
 sM
 IK
@@ -21459,7 +21245,7 @@ NL
 NL
 Ae
 NL
-Yg
+Gk
 vA
 dE
 DT
@@ -21649,7 +21435,7 @@ Rw
 sa
 Zd
 PB
-xL
+Zd
 sM
 sM
 IK
@@ -21746,25 +21532,25 @@ gc
 NK
 YO
 FG
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 LT
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
-Yg
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
+Gk
 Ii
 Ii
 qz
@@ -21779,10 +21565,10 @@ qz
 qz
 Ii
 hk
-WK
-WK
+eJ
+eJ
 mh
-WK
+eJ
 gl
 Ir
 Wg
@@ -21888,7 +21674,7 @@ QS
 rp
 LD
 FS
-Yg
+Gk
 oW
 CS
 oW
@@ -21922,9 +21708,9 @@ qz
 Ii
 Iz
 mi
-WK
-WK
-WK
+eJ
+eJ
+eJ
 dQ
 Zd
 Zd
@@ -22030,7 +21816,7 @@ EI
 Yz
 Yd
 cp
-Yg
+Gk
 CS
 Yw
 uf
@@ -22069,7 +21855,7 @@ sM
 sM
 sM
 sM
-Ia
+Zd
 Zd
 Zd
 kz

@@ -13,7 +13,7 @@
 
 /datum/map/stellar_delight
 	name = "StellarDelight"
-	full_name = "NRV Stellar Delight"
+	full_name = "NRV Brood of Stars"
 	path = "stellardelight"
 
 	use_overmap = TRUE
@@ -34,8 +34,8 @@
 		Z_LEVEL_SHIP_HIGH,
 		))
 
-	station_name  = "NRV Stellar Delight"
-	station_short = "Stellar Delight"
+	station_name  = "NRV Brood of Stars"
+	station_short = "Brood of Stars"
 	facility_type = "ship"
 	dock_name     = "Virgo-3B Colony"
 	dock_type     = "surface"
@@ -131,14 +131,15 @@
 		list(Z_NAME_OFFMAP1),
 		)
 
+	// CHOMPEdit: swapped the (too-easy) Stellar Delight gateway destinations for the
+	// Southern Cross set. These _CH gateway maps are shared CHOMP content defined in
+	// modular_chomp/maps/common_submaps/common_offmap.dm, so they load fine here.
 	lateload_gateway = list(
-		list(Z_NAME_GATEWAY_CARP_FARM),
-		list(Z_NAME_GATEWAY_SNOW_FIELD),
-		list(Z_NAME_GATEWAY_LISTENING_POST),
-		list(list(Z_NAME_GATEWAY_HONLETH_A, Z_NAME_GATEWAY_HONLETH_B)),
-		list(Z_NAME_GATEWAY_ARYNTHI_CAVE_A,Z_NAME_GATEWAY_ARYNTHI_A),
-		list(Z_NAME_GATEWAY_ARYNTHI_CAVE_B,Z_NAME_GATEWAY_ARYNTHI_B),
-		list(Z_NAME_GATEWAY_WILD_WEST),
+		list(Z_NAME_GATEWAY_SNOW_FIELD_CH),
+		list(Z_NAME_GATEWAY_MADNESS_LAB_CH),
+		list(Z_NAME_GATEWAY_ABANDONED_CITY_CH),
+		list(Z_NAME_GATEWAY_SKYSCRAPER_CH),
+		list(Z_NAME_GATEWAY_HIDDEN_ECLIPSE_CH)
 		)
 
 	lateload_overmap = list(

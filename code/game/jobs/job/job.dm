@@ -208,10 +208,9 @@
 	//return (brain_type && LAZYACCESS(ideal_age_by_species, brain_type)) || LAZYACCESS(ideal_age_by_species, brain_type) || ideal_character_age //VOREStation Removal
 
 /datum/job/proc/is_species_banned(species_name, brain_type)
-	// CHOMPEdit begin -- Shadekin cannot be any crew position
-	if(species_name == SPECIES_SHADEKIN)
-		return TRUE
-	// CHOMPEdit end
+	// CHOMPRevived (Brood of Stars): removed the CHOMPEdit that banned Shadekin from ALL crew
+	// positions, so Shadekins can now take any station/ship role like every other species.
+	// The Anomaly role stays shadekin-only via /datum/job/shadekin/is_species_banned (noncrew.dm).
 	return FALSE // VOREStation Edit - Any species can be any job.
 	/* VOREStation Removal
 	if(banned_job_species == null)

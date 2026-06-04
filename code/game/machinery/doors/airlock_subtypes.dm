@@ -187,7 +187,7 @@
 	explosion_resistance = 20
 	opacity = 1
 	assembly_type = /obj/structure/door_assembly/door_assembly_hatch
-	req_one_access = list(ACCESS_MAINT_TUNNELS)
+	//req_one_access = list(ACCESS_MAINT_TUNNELS) //CHOMPRevived (Brood of Stars): maintenance is open access
 	open_sound_powered = 'sound/machines/door/hatchopen.ogg'
 	close_sound_powered = 'sound/machines/door/hatchclose.ogg'
 	open_sound_unpowered = 'sound/machines/door/hatchforced.ogg'
@@ -199,7 +199,7 @@
 	explosion_resistance = 20
 	opacity = 1
 	assembly_type = /obj/structure/door_assembly/door_assembly_mhatch
-	req_one_access = list(ACCESS_MAINT_TUNNELS)
+	//req_one_access = list(ACCESS_MAINT_TUNNELS) //CHOMPRevived (Brood of Stars): maintenance is open access
 	open_sound_powered = 'sound/machines/door/hatchopen.ogg'
 	close_sound_powered = 'sound/machines/door/hatchclose.ogg'
 	open_sound_unpowered = 'sound/machines/door/hatchforced.ogg'

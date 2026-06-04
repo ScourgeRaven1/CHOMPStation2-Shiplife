@@ -358,6 +358,11 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/item/ammo_magazine/m41,
+/obj/item/ammo_magazine/m41,
+/obj/item/ammo_magazine/m41,
+/obj/item/ammo_magazine/m41,
+/obj/item/ammo_magazine/m41,
 /turf/simulated/floor/tiled/techfloor,
 /area/talon_v2/armory)
 "aN" = (
@@ -2518,6 +2523,19 @@
 	},
 /turf/simulated/floor/wood,
 /area/talon_v2/crew_quarters/eng_room)
+"ho" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 5;
+	pixel_y = 24
+	},
+/obj/item/gun/projectile/lamia,
+/obj/item/ammo_magazine/m44,
+/obj/item/ammo_magazine/m44,
+/obj/item/ammo_magazine/m44,
+/obj/item/ammo_magazine/m44,
+/turf/simulated/floor/tiled/techfloor,
+/area/talon_v2/armory)
 "hp" = (
 /obj/structure/catwalk,
 /obj/structure/railing/grey{
@@ -3971,6 +3989,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/talon_v2/medical)
+"mF" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/gun/energy/lasershotgun,
+/turf/simulated/floor/tiled/techfloor,
+/area/talon_v2/armory)
 "mG" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -5594,6 +5617,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/talon_v2/maintenance/fore_starboard)
+"st" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 5;
+	pixel_y = 24
+	},
+/obj/item/gun/projectile/automatic/serdy/awp,
+/turf/simulated/floor/tiled/techfloor,
+/area/talon_v2/armory)
 "su" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -7097,12 +7129,12 @@
 /turf/simulated/floor/plating,
 /area/talon_v2/maintenance/wing_port)
 "xx" = (
-/obj/structure/table/rack/steel,
 /obj/machinery/power/apc/talon{
 	name = "south bump";
 	pixel_y = -24
 	},
 /obj/structure/cable/green,
+/obj/machinery/autolathe/armory,
 /turf/simulated/floor/tiled/techfloor,
 /area/talon_v2/armory)
 "xB" = (
@@ -10788,6 +10820,13 @@
 	channels = list("Talon" = 1);
 	pixel_x = 10
 	},
+/obj/item/gun/projectile/shotgun/pump/combat,
+/obj/item/gun/projectile/shotgun/pump/combat,
+/obj/item/ammo_magazine/ammo_box/b12g/pellet,
+/obj/item/ammo_magazine/ammo_box/b12g/pellet,
+/obj/item/ammo_magazine/ammo_box/b12g/pellet,
+/obj/item/ammo_magazine/ammo_box/b12g/pellet,
+/obj/item/ammo_magazine/ammo_box/b12g/pellet,
 /turf/simulated/floor/tiled/techfloor,
 /area/talon_v2/armory)
 "Kz" = (
@@ -12002,6 +12041,11 @@
 	can_open = 1
 	},
 /area/talon_v2/engineering/star_store)
+"Om" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/gun/energy/laser/las91f,
+/turf/simulated/floor/tiled/techfloor,
+/area/talon_v2/armory)
 "On" = (
 /obj/machinery/door/firedoor/glass/talon,
 /obj/machinery/door/airlock/maintenance/common,
@@ -12409,6 +12453,11 @@
 	pixel_x = 5;
 	pixel_y = 24
 	},
+/obj/item/ammo_magazine/awp,
+/obj/item/ammo_magazine/awp,
+/obj/item/ammo_magazine/awp,
+/obj/item/ammo_magazine/awp,
+/obj/item/ammo_magazine/awp,
 /turf/simulated/floor/tiled/techfloor,
 /area/talon_v2/armory)
 "PD" = (
@@ -14052,6 +14101,11 @@
 /obj/structure/vehiclecage/quadbike,
 /turf/simulated/floor/tiled/techfloor,
 /area/talon_v2/maintenance/wing_port)
+"Vo" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/gun/projectile/automatic/serdy/m41a,
+/turf/simulated/floor/tiled/techfloor,
+/area/talon_v2/armory)
 "Vp" = (
 /turf/simulated/floor/carpet/blucarpet,
 /area/talon_v2/crew_quarters/cap_room)
@@ -23147,7 +23201,7 @@ Dd
 nK
 Si
 Oj
-PC
+st
 WZ
 Mi
 go
@@ -23293,7 +23347,7 @@ PC
 OP
 Qu
 OP
-Qu
+mF
 Zc
 Zc
 Zc
@@ -23431,11 +23485,11 @@ Dd
 FO
 Si
 Oj
-PC
+ho
 OP
 OP
 OP
-Qu
+Om
 Zc
 Ha
 ti
@@ -23575,7 +23629,7 @@ Si
 Oj
 Kx
 OP
-Qu
+Vo
 OP
 wS
 Zc

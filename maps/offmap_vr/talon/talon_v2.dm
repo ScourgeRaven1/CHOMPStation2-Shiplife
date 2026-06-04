@@ -143,6 +143,27 @@
 /obj/machinery/telecomms/allinone/talon
 	freq_listening = list(PUB_FREQ, TALON_FREQ)
 
+// CHOMPRevived (Brood of Stars): the base /allinone overmap get_map_levels() check was dropping
+// the Talon's subspace traffic when the telecomms had power, so the radio only worked with the
+// machine UNpowered (ad-hoc fallback). The Talon is a self-contained separate-z ship, so use the
+// simpler same-z relay (copied from /obj/machinery/telecomms/allinone/link) instead.
+/obj/machinery/telecomms/allinone/talon/receive_signal(datum/signal/signal)
+	if(!on)
+		return
+	if(!using_map.use_overmap)
+		return
+	if(!signal)
+		return
+	if("[signal.data["level"]]" == "[z]")
+		signal.data["level"] = list(0)
+	else
+		signal.data["level"] = list(z)
+	if(is_freq_listening(signal)) // detect subspace signals
+		signal.data["done"] = 1 // mark the signal as being broadcasted since we're a broadcaster
+		signal.data["compression"] = 0 // decompress since we're a processor
+		if(signal.data["slow"] > 0)
+			addtimer(CALLBACK(src, PROC_REF(broadcast_signal), signal), signal.data["slow"], TIMER_DELETE_ME)
+
 /obj/item/paper/secret_vendornote
 	name = "secret note"
 	info = {"well, if you're reading this note, then I've managed to install, a couple of funny things inside the vending machine.<br>\

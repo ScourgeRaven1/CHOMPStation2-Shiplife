@@ -1,7 +1,8 @@
 /obj/machinery/door/airlock/lift
 	name = "Elevator Door"
 	desc = "Ding."
-	req_access = list(ACCESS_MAINT_TUNNELS)
+	//req_access = list(ACCESS_MAINT_TUNNELS) //CHOMPRevived (Brood of Stars): maintenance is open access
+	req_access = null
 	unacidable = TRUE
 	opacity = 0
 	autoclose = 0

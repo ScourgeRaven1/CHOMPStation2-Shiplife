@@ -231,32 +231,32 @@
 // We have a bunch of stuff common to the station z levels
 /datum/map_z_level/stellar_delight
 	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_CONSOLES|MAP_LEVEL_XENOARCH_EXEMPT|MAP_LEVEL_PERSIST|MAP_LEVEL_VORESPAWN
-	holomap_legend_x = 220
-	holomap_legend_y = 160
+	holomap_legend_x = 300
+	holomap_legend_y = 203
 
 /datum/map_z_level/stellar_delight/deck_one
 	z = Z_LEVEL_SHIP_LOW
 	name = "Deck 1"
 	base_turf = /turf/space
 	transit_chance = 33
-	holomap_offset_x = SHIP_HOLOMAP_MARGIN_X
-	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y
+	holomap_offset_x = 101
+	holomap_offset_y = 2
 
 /datum/map_z_level/stellar_delight/deck_two
 	z = Z_LEVEL_SHIP_MID
 	name = "Deck 2"
 	base_turf = /turf/simulated/open
 	transit_chance = 33
-	holomap_offset_x = SHIP_HOLOMAP_MARGIN_X
-	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y + SHIP_MAP_SIZE
+	holomap_offset_x = 103
+	holomap_offset_y = 133
 
 /datum/map_z_level/stellar_delight/deck_three
 	z = Z_LEVEL_SHIP_HIGH
 	name = "Deck 3"
 	base_turf = /turf/simulated/open
 	transit_chance = 33
-	holomap_offset_x = HOLOMAP_ICON_SIZE - SHIP_HOLOMAP_MARGIN_X - SHIP_MAP_SIZE
-	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y + SHIP_MAP_SIZE
+	holomap_offset_x = 103
+	holomap_offset_y = 261
 
 /datum/map_template/ship_lateload
 	allow_duplicates = FALSE

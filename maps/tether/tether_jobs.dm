@@ -1,13 +1,15 @@
 ///////////////////////////////////
 //// Talon Jobs
-/* CHOMPRemove Start
+// CHOMPRevived (Brood of Stars): re-enabled the Talon crew roles. CHOMP had removed these,
+// but the ITV Talon ship loads on this overmap (Z_NAME_OFFMAP1) and all supporting defines,
+// outfits, access and spawn landmark (JoinLateTalon) still exist. See MY_CHANGES/CLAUDE.md.
 /datum/department/talon
 	name = DEPARTMENT_TALON
 	short_name = "Talon"
 	color = "#888888"
 	sorting_order = -2
-	assignable = FALSE
-	visible = FALSE
+	assignable = TRUE // CHOMPRevived (Brood of Stars): real Talon crew department
+	visible = TRUE
 
 /datum/job/talon_captain
 	title = JOB_TALON_CAPTAIN
@@ -25,11 +27,7 @@
 	spawn_positions = 1
 	selection_color = "#999999"
 	economic_modifier = 7
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
-	dept_time_required = 60
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_COMMANDER = /datum/alt_title/talon_commander)
@@ -52,10 +50,7 @@
 	spawn_positions = 1
 	selection_color = "#aaaaaa"
 	economic_modifier = 5
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_MEDIC = /datum/alt_title/talon_medic)
@@ -79,10 +74,7 @@
 	spawn_positions = 1
 	selection_color = "#aaaaaa"
 	economic_modifier = 5
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_TECHNICIAN = /datum/alt_title/talon_tech)
@@ -106,10 +98,7 @@
 	spawn_positions = 1
 	selection_color = "#aaaaaa"
 	economic_modifier = 5
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_HELMSMAN = /datum/alt_title/talon_helmsman)
@@ -133,10 +122,7 @@
 	spawn_positions = 1
 	selection_color = "#aaaaaa"
 	economic_modifier = 5
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_SECURITY = /datum/alt_title/talon_security)
@@ -159,17 +145,14 @@
 	spawn_positions = 1
 	selection_color = "#aaaaaa"
 	economic_modifier = 5
-	minimal_player_age = 14
-	playtime_only = TRUE
-	pto_type = PTO_TALON
-	timeoff_factor = 1
+	// CHOMPRevived (Brood of Stars): gating removed so Talon roles list like the Anomaly job
 	access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	minimal_access = list(ACCESS_TALON, ACCESS_TALON_BRIDGE, ACCESS_TALON_MEDICAL, ACCESS_TALON_ENGINEER, ACCESS_TALON_CARGO, ACCESS_TALON_SECURITY, ACCESS_TALON_PILOT)
 	alt_titles = list(JOB_ALT_TALON_EXCAVATOR = /datum/alt_title/talon_excavator)
 
 /datum/alt_title/talon_excavator
 	title = JOB_ALT_TALON_EXCAVATOR
-*/// CHMOMPRemove End
+// CHOMPRevived (Brood of Stars): end of re-enabled Talon crew roles block
 
 //////////////////////TALON OUTFITS//////////////////////
 

@@ -58,7 +58,7 @@ Goal: replace the old "bay"/"eris" art with Southern Cross sprites.
 
 ## Gameplay tweaks (Group B — shared files; re-apply by hand on upstream merges)
 - `code/modules/resleeving/autoresleever.dm` — resleeve wait: vore **2 min**, normal **10 min** (was 5/30).
-- `code/modules/persistence/storage/smartfridge.dm` — `sheet_storage/lossy` retention **80%** (was 50%).
+- `code/modules/persistence/storage/smartfridge.dm` — `sheet_storage/lossy` retention **97%** (~3% loss; was 80%, originally 50%).
 - `code/__defines/research.dm` — `TECHWEB_SINGLE_SERVER_INCOME` = **4.0**/sec (was 0.4).
 - `maps/stellar_delight/stellar_delight_defines.dm` — Gateway destinations swapped to the Southern Cross set
   (snow field, madness lab, abandoned city, skyscraper, hidden eclipse). Also the display-name rename.

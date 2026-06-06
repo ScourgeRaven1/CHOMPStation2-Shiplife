@@ -471,7 +471,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/command{
 	dir = 4;
 	id_tag = "hopdoor";
 	name = "Head of Personnel";
@@ -1342,7 +1342,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/research{
 	dir = 4;
 	id_tag = "rddoor";
 	name = "Research Director";
@@ -2573,7 +2573,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/engineering{
 	dir = 4;
 	id_tag = "cedoor";
 	name = "Chief Engineer";
@@ -6676,7 +6676,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/glass,
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/command{
 	name = "Head of Personnel";
 	req_access = list(57)
 	},
@@ -7517,7 +7517,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/medical{
 	dir = 4;
 	id_tag = "cmodoor";
 	name = "Chief Medical Officer";
@@ -8528,7 +8528,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/security{
 	dir = 4;
 	id_tag = "hosdoor";
 	name = "Head of Security";
@@ -12475,7 +12475,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock{
+/obj/machinery/door/airlock/command{
 	dir = 4;
 	name = "Internal Affairs";
 	req_access = list(38)
